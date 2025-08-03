@@ -1,0 +1,10 @@
+# Core dependencies
+transformers==4.41.0
+torch==2.2.0+cpu
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# Data handling
+pandas==2.2.2
+
+# Git automation (if you need git push)
+gitpython==3.1.43
